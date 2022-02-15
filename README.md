@@ -5,21 +5,21 @@ A InCicle é uma empresa de tecnologia com foco em soluções para sistemas de g
 ### Teste Backend
 
 Esse teste consiste em conhecermos um pouco o seu conhecimento na área de desenvolvimento de **apis rest**.
-Sendo assim, avaliaremos o seu domínio das linguagem Php utilizando o framework Laravel.
+Sendo assim, avaliaremos o seu domínio das linguagem Php ^8.x utilizando o framework Laravel ^8.x ou ^9.x.
 
 ### Tarefa 1
 
-Criar um banco de dados contendo informações dos estados e cidades do Brasil. Deixe em anexo o sql do banco. Pode usar tanto SQL como NOSQL e utilizar o Eloquent nas consultas. Neste mesmo banco crie uma tabela de pessoa com os campos nome, cpf, estado e cidade. Também criar uma tabela de log, colocando os campos: função usada, ação, hora e data
+Criar um banco de dados contendo informações dos estados e cidades do Brasil. Deixe em anexo o sql do banco. Pode usar tanto POSTGRESQL como NOSQL e utilizar o ORM Eloquent disponível no Laravel nas consultas. Neste mesmo banco crie uma tabela de pessoa com os campos nome, cpf, estado e cidade. Também criar uma tabela de log, colocando os campos: função usada, ação, hora e data
 
 ### Tarefa 2
 
 Desenvolva uma api com os seguintes controllers,
 
-Cadastro das cidades de um estado. Listagem das cidades de um estado usando paginação nos dados. Criar uma função para inserir novas cidades. Criar uma função para atualizar novas cidades. Criar um endpoint para verificar se a cidade existe. Validar os campos. Desenvolver Testes Unitários das tarefas acima com phpUnit ou PestPhp.
+Cadastro das cidades de um estado. Listagem das cidades de um estado usando paginação nos dados. Criar uma função para inserir novas cidades. Criar uma função para atualizar novas cidades. Criar um endpoint para verificar se a cidade existe. Desenvolver Testes Unitários das tarefas acima com phpUnit ou PestPhp.
 
 ### Tarefa 3
 
-Crie uma api que colete dados de uma pessoa como nome, cpf, estado e cidade e faça a inserção na tabela do banco pessoa. Validar os campos. Essa api tem que consumir a outra api da tarefa 2 para validar se a cidade que usuário colocou tem no banco de dados.
+Crie uma api que colete dados de uma pessoa como nome, cpf, estado e cidade e faça a inserção na tabela do banco pessoa. Essa api tem que consumir a outra api da tarefa 2 para validar se a cidade que usuário colocou tem no banco de dados.
 
 ### Tarefa 4
 
