@@ -7,43 +7,38 @@ A InCicle é uma empresa de tecnologia com foco em soluções para sistemas de g
 Esse teste consiste em conhecermos um pouco o seu conhecimento na área de desenvolvimento de **apis rest**.
 Sendo assim, avaliaremos o seu domínio das linguagem Php utilizando o framework Laravel.
 
-## Tarefa 1
+### Tarefa 1
 
-- Precisamos de um sistema para vendas.
+Criar um banco de dados contendo informações dos estados e cidades do Brasil. Deixe em anexo o sql do banco. Pode usar tanto SQL como NOSQL e utilizar o Eloquent nas consultas. Neste mesmo banco crie uma tabela de pessoa com os campos nome, cpf, estado e cidade. Também criar uma tabela de log, colocando os campos: função usada, ação, hora e data
 
-### Descrição da tarefa 1
+### Tarefa 2
 
-- Queremos controlar as vendas do dia. Pense em uma tela onde eu informo a data da venda, o cliente que comprou e a forma de pagamento (Dinheiro ou Cartão). Caso o pagamento seja do tipo Cartão é enviado para o gateway de pagamento, que aceita no máximo 10 pagamentos por minuto, sendo assim devemos realizar o controle de requisições para evitar perca de pedidos. Daí eu indico quais os produtos que o cliente comprou e a quantidade de cada itens por produto. O sistema me mostra o valor total da venda. Quando salvar a ordem de compra, liberar o download de uma cópia do pedido em PDF com o nome do cliente, a data da compra, a lista de pedidos comprados e valor total. Preciso ter um cadastro de produtos para não precisar digitar o nome do produto todas as vezes. Seria bom se pudesse ter um controle de usuários, para evitar que pessoas não autorizadas tenham acesso. E também uma listagem onde seleciono o cliente e são listados os pedidos dele.
+Desenvolva uma api com os seguintes controllers,
 
-### Informações Complementares referentes a tarefa 1
+Coleta das cidades de um estado. Coleta das cidades de um estado usando paginação nos dados. Criar uma função para inserir novas cidades. Criar uma função para atualizar novas cidades. Criar uma função para verificar se a cidade existe. Validar os campos. Desenvolver Testes Unitários das tarefas acima com phpUnit ou PestPhp.
 
-- A api que você vai enviar os pagamentos é ficticia e a sua url é um:
-  
-  ````
-       POST https://pagamentos-test/send
-  ````
+### Tarefa 3
 
-- As informações que vai passar para o body da requisição é:
+Crie uma api que colete dados de uma pessoa como nome, cpf, estado e cidade e faça a inserção na tabela do banco pessoa. Validar os campos. Essa api tem que consumir a outra api da tarefa 2 para validar se a cidade que usuário colocou tem no banco de dados.
 
-  ````
-        {
-            "card":"Número do cartão do comprador"
-            "document":"número cpf ou cnpj do usuário",
-            "type":"Typo de usuário cnpj/cpf",
-            "value":"valor da compra",
-            "buy_date":"data da compra",
-        }
-  ````
+### Tarefa 4
 
-## Tarefa 2
+Desenvolver uma api com WebSocket, conectando os dois servidores e coletar informações em tempo real de uma ação feita, e inserir na tabela de logs.
+### O que iremos avaliar:
+- A organização do seu projeto, e a forma que seu código foi escrito.
+- Se a sua solução atende tudo que foi solicitado.
+- Se preocupou com performance da aplicação.
+- O código é fácil de dar manutenção.
+- Cobertura de código >= a 70%.
+- Você entregou um readme com tudo que precisamos para executar.
 
-- Criar uma base de dados usando as seeds do laravel e consultando a api https://pokeapi.co/ para cadastrar mil itens e trazer todos os dados no banco.
-Após a inserção ser realizada, Criar uma rota que retorne esses dados e os guarde em um array, sua tarefa é, construir uma função que receba como parametro
-o nome de um pokemon guardado dentro desse array e busque o mesmo dentro do array.
+### Itens que nos deixam com mais vontade de ter você no nosso time:
 
-### Informações Complementares referentes a tarefa 2
-
-- Não queremos consultas diretas no banco pelo nome dos pokemons.
+- Seu repositório contém algum tipo de script que cria o bando de dados e toda a “infra” necessária para a execução.
+- Você foi além, e conseguimos testar a aplicação acessando uma versão que você deixou rodando em algum host público.
+- Você foi mais além ainda, e conseguimos rodar localmente apenas baixando uma imagem docker ou dando um docker-compose up.
+- Seu repositório tem algum tipo de automação compile o projeto e rode os testes.
+- A sua API possui documentação (eu li swagger?)
 
 ### Envio
 
