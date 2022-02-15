@@ -24,6 +24,7 @@ Crie uma api que colete dados de uma pessoa como nome, cpf, estado e cidade e fa
 ### Tarefa 4
 
 Desenvolver uma api com WebSocket, conectando os dois servidores e coletar informações em tempo real de uma ação feita, e inserir na tabela de logs.
+
 ### O que iremos avaliar:
 - A organização do seu projeto, e a forma que seu código foi escrito.
 - Se a sua solução atende tudo que foi solicitado.
