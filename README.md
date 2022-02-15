@@ -15,7 +15,7 @@ Criar um banco de dados contendo informações dos estados e cidades do Brasil. 
 
 Desenvolva uma api com os seguintes controllers,
 
-Coleta das cidades de um estado. Coleta das cidades de um estado usando paginação nos dados. Criar uma função para inserir novas cidades. Criar uma função para atualizar novas cidades. Criar uma função para verificar se a cidade existe. Validar os campos. Desenvolver Testes Unitários das tarefas acima com phpUnit ou PestPhp.
+Cadastro das cidades de um estado. Listagem das cidades de um estado usando paginação nos dados. Criar uma função para inserir novas cidades. Criar uma função para atualizar novas cidades. Criar um endpoint para verificar se a cidade existe. Validar os campos. Desenvolver Testes Unitários das tarefas acima com phpUnit ou PestPhp.
 
 ### Tarefa 3
 
