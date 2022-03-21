@@ -9,7 +9,7 @@ Desenvolver uma Api que atenda à modelagem disponibilizada abaixo(não necessá
 
 ### DIAGRAMA
 
-![Diagrama](https://github.com/InCicle/backend-test/main/DER-testes.png?raw=true)
+![Diagrama](https://github.com/InCicle/backend-test/blob/main/DER-testes.png?raw=true)
 
 ### **Requisitos**
 ## item 1
@@ -27,7 +27,7 @@ Tópicos não podem mudar de projeto apenas alterar seu index através do campo 
 ## item 7
 Todas as entidades devem ter todos os campos gerenciáveis, possibilitando listagem, cadastro, visualização, edição e exclusão.
 ## item 8
- - Ao excluir um projeto não pode-se ter acesso aos dados filhos como suas atividades, membros e tópicos.
+ - Ao excluir um projeto não pode-se ter acesso aos demais dados do projeto como suas atividades, membros e tópicos.
  - Ao excluir um tópico as atividades pertencentes devem ser excluídas.
  - Ao excluir um membro este não deve poder visualizar os dados do projeto.
  - Ao ser excluir todos os membros do projeto deve-se apagar todos os dados do projeto
