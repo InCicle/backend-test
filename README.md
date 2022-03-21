@@ -31,6 +31,10 @@ Todas as entidades devem ter todos os campos gerenciáveis, possibilitando lista
  - Ao excluir um tópico as atividades pertencentes devem ser excluídas.
  - Ao excluir um membro este não deve poder visualizar os dados do projeto.
  - Ao ser excluir todos os membros do projeto deve-se apagar todos os dados do projeto
+## item 9
+ - Dentre as rotas da aplicação construir uma rota que retorne as atividades em **andamento**(atividades sem data definida ou dentro do prazo), **atrasadas** e **concluídas** dado um membro do projeto, lembrando que o usuário deve ser membro da atividade para que esta entre no calculo.
+ - Faça a mesma regra acima para as atividades de todo um projeto
+
 ### O que iremos avaliar:
 - Validação de requisições
 - Logs da aplicação
